@@ -5,6 +5,8 @@ import java.util.Optional;
 import org.modelmapper.ModelMapper;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -70,6 +72,14 @@ public class UserAuthServiceImplementation implements UserAuthService {
         log.info("Authentication successful for user with email: {}", loginDto.getEmail());
         User user = userRepository.findByEmail(loginDto.getEmail()).orElseThrow(() -> new ResourceNotFoundException("User", "Email", loginDto.getEmail()));
         return Optional.of(user);
+    }
+
+    @Override
+    public User getLoggedInUser() {
+        UserDetails userDetails = (UserDetails) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        String username = userDetails.getUsername();
+        User loggedInUser = userRepository.findByEmail(username).orElseThrow(() -> new ResourceNotFoundException("User", "Email", username));
+        return loggedInUser;
     }
     
 }

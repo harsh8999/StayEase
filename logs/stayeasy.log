@@ -868,3 +868,200 @@ io.jsonwebtoken.security.SignatureException: JWT signature does not match locall
 2024-04-07T15:37:14.784+05:30  INFO 6332 --- [StayEase] [http-nio-8080-exec-4] c.h.S.h.s.i.HotelServiceImplementation   : Fetching all Hotels
 2024-04-07T15:37:14.799+05:30  INFO 6332 --- [StayEase] [http-nio-8080-exec-4] c.h.S.h.s.i.HotelServiceImplementation   : Returning 2 Hotels
 2024-04-07T15:37:14.801+05:30  INFO 6332 --- [StayEase] [http-nio-8080-exec-4] c.h.S.hotel.controller.HotelController   : Retrieved 2 hotels
+2024-04-07T16:10:17.307+05:30  INFO 6244 --- [StayEase] [restartedMain] com.harsh.StayEase.StayEaseApplication   : Starting StayEaseApplication using Java 17.0.10 with PID 6244 (F:\java Example\Code-a-thon\StayEase\target\classes started by Acer in F:\java Example\Code-a-thon\StayEase)
+2024-04-07T16:10:17.342+05:30  INFO 6244 --- [StayEase] [restartedMain] com.harsh.StayEase.StayEaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-04-07T16:10:17.645+05:30  INFO 6244 --- [StayEase] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-07T16:10:17.650+05:30  INFO 6244 --- [StayEase] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-07T16:10:23.157+05:30  INFO 6244 --- [StayEase] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-07T16:10:23.520+05:30  INFO 6244 --- [StayEase] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 307 ms. Found 3 JPA repository interfaces.
+2024-04-07T16:10:31.807+05:30  INFO 6244 --- [StayEase] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-07T16:10:31.938+05:30  INFO 6244 --- [StayEase] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-07T16:10:31.940+05:30  INFO 6244 --- [StayEase] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-07T16:10:32.391+05:30  INFO 6244 --- [StayEase] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-07T16:10:32.392+05:30  INFO 6244 --- [StayEase] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 14736 ms
+2024-04-07T16:10:33.566+05:30  INFO 6244 --- [StayEase] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-07T16:10:33.959+05:30  INFO 6244 --- [StayEase] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-07T16:10:34.217+05:30  INFO 6244 --- [StayEase] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-07T16:10:35.501+05:30  INFO 6244 --- [StayEase] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-07T16:10:35.656+05:30  INFO 6244 --- [StayEase] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-07T16:10:37.291+05:30  INFO 6244 --- [StayEase] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a3dd78e
+2024-04-07T16:10:37.298+05:30  INFO 6244 --- [StayEase] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-07T16:10:41.668+05:30  INFO 6244 --- [StayEase] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-07T16:10:42.489+05:30  INFO 6244 --- [StayEase] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-07T16:10:44.662+05:30  WARN 6244 --- [StayEase] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-07T16:10:50.838+05:30  INFO 6244 --- [StayEase] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2a78bd56, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6a4fe9f5, org.springframework.security.web.context.SecurityContextHolderFilter@17a39ea9, org.springframework.security.web.header.HeaderWriterFilter@68d00d77, org.springframework.web.filter.CorsFilter@33c02505, org.springframework.security.web.authentication.logout.LogoutFilter@1a2b7ed1, com.harsh.StayEase.jwt_security.config.JwtAuthenticationFilter@180b7f5e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6963e4a0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e9d9971, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@11b9b612, org.springframework.security.web.access.ExceptionTranslationFilter@757a3904, org.springframework.security.web.access.intercept.AuthorizationFilter@4bc176ca]
+2024-04-07T16:10:52.584+05:30  INFO 6244 --- [StayEase] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-07T16:10:53.057+05:30  INFO 6244 --- [StayEase] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-07T16:10:53.186+05:30  INFO 6244 --- [StayEase] [restartedMain] com.harsh.StayEase.StayEaseApplication   : Started StayEaseApplication in 37.873 seconds (process running for 39.777)
+2024-04-07T16:11:35.727+05:30  INFO 6244 --- [StayEase] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-07T16:11:35.730+05:30  INFO 6244 --- [StayEase] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-07T16:11:35.733+05:30  INFO 6244 --- [StayEase] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-04-07T16:11:35.995+05:30  WARN 6244 --- [StayEase] [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [114] milliseconds.
+2024-04-07T16:11:41.310+05:30  INFO 6244 --- [StayEase] [http-nio-8080-exec-3] c.h.S.u.controller.UserAuthController    : Received login request for email: harsh@gmail.com
+2024-04-07T16:11:41.311+05:30  INFO 6244 --- [StayEase] [http-nio-8080-exec-3] .h.S.u.s.i.UserAuthServiceImplementation : Authenticating user with email: harsh@gmail.com
+2024-04-07T16:11:42.214+05:30  INFO 6244 --- [StayEase] [http-nio-8080-exec-3] .h.S.u.s.i.UserAuthServiceImplementation : Authentication successful for user with email: harsh@gmail.com
+2024-04-07T16:11:42.499+05:30  INFO 6244 --- [StayEase] [http-nio-8080-exec-3] c.h.S.u.controller.UserAuthController    : User logged in successfully with email: harsh@gmail.com
+2024-04-07T16:11:53.874+05:30  WARN 6244 --- [StayEase] [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.harsh.StayEase.booking.dto.BookingDto> com.harsh.StayEase.booking.controller.BookingController.bookRoom(java.lang.Long,com.harsh.StayEase.booking.controller.exchanges.AddBookingDto)]
+2024-04-07T16:12:01.516+05:30  INFO 6244 --- [StayEase] [http-nio-8080-exec-5] c.h.S.u.controller.UserAuthController    : Received login request for email: karan@gmail.com
+2024-04-07T16:12:01.519+05:30  INFO 6244 --- [StayEase] [http-nio-8080-exec-5] .h.S.u.s.i.UserAuthServiceImplementation : Authenticating user with email: karan@gmail.com
+2024-04-07T16:12:01.529+05:30 ERROR 6244 --- [StayEase] [http-nio-8080-exec-5] c.h.S.e.handler.GlobalExceptionHandler   : ResourceNotFoundException: User not found with Email: karan@gmail.com
+
+com.harsh.StayEase.exception.exceptions.ResourceNotFoundException: User not found with Email: karan@gmail.com
+	at com.harsh.StayEase.jwt_security.config.UserSecurityConfig.lambda$1(UserSecurityConfig.java:39) ~[classes/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at com.harsh.StayEase.jwt_security.config.UserSecurityConfig.lambda$0(UserSecurityConfig.java:39) ~[classes/:na]
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:103) ~[spring-security-core-6.2.3.jar:6.2.3]
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:133) ~[spring-security-core-6.2.3.jar:6.2.3]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182) ~[spring-security-core-6.2.3.jar:6.2.3]
+	at com.harsh.StayEase.user.services.implementations.UserAuthServiceImplementation.authenticate(UserAuthServiceImplementation.java:71) ~[classes/:na]
+	at com.harsh.StayEase.user.controller.UserAuthController.login(UserAuthController.java:85) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:925) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at com.harsh.StayEase.jwt_security.config.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:47) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2024-04-07T16:12:01.676+05:30  WARN 6244 --- [StayEase] [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authentication.InternalAuthenticationServiceException: User not found with Email: karan@gmail.com]
+2024-04-07T16:12:07.128+05:30  INFO 6244 --- [StayEase] [http-nio-8080-exec-6] c.h.S.u.controller.UserAuthController    : Received login request for email: hema@gmail.com
+2024-04-07T16:12:07.133+05:30  INFO 6244 --- [StayEase] [http-nio-8080-exec-6] .h.S.u.s.i.UserAuthServiceImplementation : Authenticating user with email: hema@gmail.com
+2024-04-07T16:12:07.339+05:30  INFO 6244 --- [StayEase] [http-nio-8080-exec-6] .h.S.u.s.i.UserAuthServiceImplementation : Authentication successful for user with email: hema@gmail.com
+2024-04-07T16:12:07.351+05:30  INFO 6244 --- [StayEase] [http-nio-8080-exec-6] c.h.S.u.controller.UserAuthController    : User logged in successfully with email: hema@gmail.com
+2024-04-07T16:12:18.161+05:30  WARN 6244 --- [StayEase] [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.harsh.StayEase.booking.dto.BookingDto> com.harsh.StayEase.booking.controller.BookingController.bookRoom(java.lang.Long,com.harsh.StayEase.booking.controller.exchanges.AddBookingDto)]
+2024-04-07T16:34:12.982+05:30  INFO 19160 --- [StayEase] [restartedMain] com.harsh.StayEase.StayEaseApplication   : Starting StayEaseApplication using Java 17.0.10 with PID 19160 (F:\java Example\Code-a-thon\StayEase\target\classes started by Acer in F:\java Example\Code-a-thon\StayEase)
+2024-04-07T16:34:12.994+05:30  INFO 19160 --- [StayEase] [restartedMain] com.harsh.StayEase.StayEaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-04-07T16:34:13.324+05:30  INFO 19160 --- [StayEase] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-07T16:34:13.442+05:30  INFO 19160 --- [StayEase] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-07T16:34:17.589+05:30  INFO 19160 --- [StayEase] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-07T16:34:17.787+05:30  INFO 19160 --- [StayEase] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 169 ms. Found 3 JPA repository interfaces.
+2024-04-07T16:34:19.942+05:30  INFO 19160 --- [StayEase] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-07T16:34:19.986+05:30  INFO 19160 --- [StayEase] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-07T16:34:20.007+05:30  INFO 19160 --- [StayEase] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-07T16:34:20.261+05:30  INFO 19160 --- [StayEase] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-07T16:34:20.263+05:30  INFO 19160 --- [StayEase] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6807 ms
+2024-04-07T16:34:20.692+05:30  INFO 19160 --- [StayEase] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-07T16:34:20.882+05:30  INFO 19160 --- [StayEase] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-07T16:34:21.024+05:30  INFO 19160 --- [StayEase] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-07T16:34:21.778+05:30  INFO 19160 --- [StayEase] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-07T16:34:21.873+05:30  INFO 19160 --- [StayEase] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-07T16:34:22.648+05:30  INFO 19160 --- [StayEase] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1314deee
+2024-04-07T16:34:22.652+05:30  INFO 19160 --- [StayEase] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-07T16:34:25.816+05:30  INFO 19160 --- [StayEase] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-07T16:34:25.982+05:30  INFO 19160 --- [StayEase] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-07T16:34:27.068+05:30  WARN 19160 --- [StayEase] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-07T16:34:28.480+05:30  INFO 19160 --- [StayEase] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1c94b601, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3f8c23ac, org.springframework.security.web.context.SecurityContextHolderFilter@510d92bc, org.springframework.security.web.header.HeaderWriterFilter@37f12a62, org.springframework.web.filter.CorsFilter@4bb9f13, org.springframework.security.web.authentication.logout.LogoutFilter@7965021b, com.harsh.StayEase.jwt_security.config.JwtAuthenticationFilter@1667efcb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@24e3304c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71bf6afd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@45326f60, org.springframework.security.web.access.ExceptionTranslationFilter@231f45d3, org.springframework.security.web.access.intercept.AuthorizationFilter@3ad32d02]
+2024-04-07T16:34:29.235+05:30  INFO 19160 --- [StayEase] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-07T16:34:29.369+05:30  INFO 19160 --- [StayEase] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-07T16:34:29.423+05:30  INFO 19160 --- [StayEase] [restartedMain] com.harsh.StayEase.StayEaseApplication   : Started StayEaseApplication in 17.557 seconds (process running for 18.52)
+2024-04-07T16:34:43.083+05:30  INFO 19160 --- [StayEase] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-07T16:34:43.118+05:30  INFO 19160 --- [StayEase] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-07T16:34:43.252+05:30  INFO 19160 --- [StayEase] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2024-04-07T16:34:44.311+05:30  INFO 19160 --- [StayEase] [http-nio-8080-exec-3] c.h.S.u.controller.UserAuthController    : Received login request for email: hema@gmail.com
+2024-04-07T16:34:44.317+05:30  INFO 19160 --- [StayEase] [http-nio-8080-exec-3] .h.S.u.s.i.UserAuthServiceImplementation : Authenticating user with email: hema@gmail.com
+2024-04-07T16:34:46.053+05:30  INFO 19160 --- [StayEase] [http-nio-8080-exec-3] .h.S.u.s.i.UserAuthServiceImplementation : Authentication successful for user with email: hema@gmail.com
+2024-04-07T16:34:46.468+05:30  INFO 19160 --- [StayEase] [http-nio-8080-exec-3] c.h.S.u.controller.UserAuthController    : User logged in successfully with email: hema@gmail.com
+2024-04-07T16:35:09.244+05:30  INFO 19160 --- [StayEase] [http-nio-8080-exec-4] c.h.S.b.controller.BookingController     : Received request to book room for hotel ID: 1
+2024-04-07T16:35:10.065+05:30  INFO 19160 --- [StayEase] [http-nio-8080-exec-4] c.h.S.b.controller.BookingController     : Booking successfully created for hotel ID: 1
+2024-04-07T16:35:45.726+05:30  INFO 19160 --- [StayEase] [http-nio-8080-exec-5] c.h.S.b.controller.BookingController     : Received request to book room for hotel ID: 2
+2024-04-07T16:35:45.846+05:30  INFO 19160 --- [StayEase] [http-nio-8080-exec-5] c.h.S.b.controller.BookingController     : Booking successfully created for hotel ID: 2
+2024-04-07T16:36:32.104+05:30  WARN 19160 --- [StayEase] [http-nio-8080-exec-6] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [155] milliseconds.
+2024-04-07T16:36:39.444+05:30  INFO 19160 --- [StayEase] [http-nio-8080-exec-7] c.h.S.u.controller.UserAuthController    : Received login request for email: sahil@gmail.com
+2024-04-07T16:36:39.447+05:30  INFO 19160 --- [StayEase] [http-nio-8080-exec-7] .h.S.u.s.i.UserAuthServiceImplementation : Authenticating user with email: sahil@gmail.com
+2024-04-07T16:36:39.682+05:30  INFO 19160 --- [StayEase] [http-nio-8080-exec-7] .h.S.u.s.i.UserAuthServiceImplementation : Authentication successful for user with email: sahil@gmail.com
+2024-04-07T16:36:39.694+05:30  INFO 19160 --- [StayEase] [http-nio-8080-exec-7] c.h.S.u.controller.UserAuthController    : User logged in successfully with email: sahil@gmail.com
+2024-04-07T16:36:55.975+05:30  INFO 19160 --- [StayEase] [http-nio-8080-exec-8] c.h.S.b.controller.BookingController     : Received request to cancel booking with ID: 1
+2024-04-07T16:36:56.027+05:30  INFO 19160 --- [StayEase] [http-nio-8080-exec-8] c.h.S.b.controller.BookingController     : Booking with ID 1 has been cancelled

@@ -28,4 +28,12 @@ public interface UserAuthService {
      */
     Optional<User> authenticate(LoginDto loginDto);
 
+    /**
+     * Retrieves the currently logged-in user.
+     * 
+     * @return The User object representing the currently logged-in user.
+     * @throws IllegalStateException if no user is currently logged in.
+     */
+    User getLoggedInUser();
+
 }
