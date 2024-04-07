@@ -76,7 +76,7 @@ public class UserAuthController {
      * @param loginDto The LoginDto containing user login details.
      * @return ResponseEntity containing the JWT token and expiration time upon successful authentication.
      */
-    @GetMapping(UN_AUTHENTICATED_BASE_URL + "/login")
+    @GetMapping(UN_AUTHENTICATED_BASE_URL + "/generatetoken")
     public ResponseEntity<LoginResponseDto> login(@Valid @RequestBody LoginDto entity) {
 
         // Log the message

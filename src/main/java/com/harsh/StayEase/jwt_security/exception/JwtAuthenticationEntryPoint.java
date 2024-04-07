@@ -17,7 +17,7 @@ import jakarta.servlet.http.HttpServletResponse;
  * Custom authentication entry point for handling unauthorized requests.
  */
 @Component
-public class JwtAuthenticationExtryPoint implements AuthenticationEntryPoint {
+public class JwtAuthenticationEntryPoint implements AuthenticationEntryPoint {
 
     /**
      * Handles unauthorized requests by sending a 401 Unauthorized response.

@@ -50,7 +50,7 @@ To run this application locally, follow these steps:
         "password" : "1234"
     }
     ```
-- GET /api/v1/auth/login - Get JSON Web Token (JWT)
+- GET /api/v1/auth/generatetoken - Get JSON Web Token (JWT)
     ### Request Body
     ```json
     {
