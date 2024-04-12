@@ -38,7 +38,7 @@ public class User implements UserDetails {
      * The unique identifier for the user.
      */
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     Long id;
 
     /**

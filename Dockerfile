@@ -5,7 +5,7 @@ FROM eclipse-temurin:21-jre-jammy
 WORKDIR /app
 
 # Copy the jar file from the project directory
-COPY ./target/StayEase-0.0.1-SNAPSHOT.jar ./app.jar
+COPY ./target/*.jar ./app.jar
 
 # Command to run the application
 CMD ["java", "-jar", "app.jar"]

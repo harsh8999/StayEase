@@ -31,7 +31,7 @@ public class Hotel {
      * The unique identifier for the hotel.
      */
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     Long id;
 
     /**

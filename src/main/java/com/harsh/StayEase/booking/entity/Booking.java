@@ -34,7 +34,7 @@ public class Booking {
      * The ID of the booking.
      */
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     Long id;
 
     /**
