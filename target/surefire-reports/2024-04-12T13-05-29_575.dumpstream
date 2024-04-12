@@ -1,5 +1,0 @@
-# Created at 2024-04-12T13:05:30.328
-Boot Manifest-JAR contains absolute paths in classpath 'F:\java Example\Code-a-thon\StayEase\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-'other' has different root
-
